@@ -1,0 +1,16 @@
+.menu{
+    background-image: url(./kepek/fokep.jpg);
+    color: white;
+    background-size: cover;
+    height: 450px;
+
+}
+a{
+    color: white;
+    float: right;
+    margin-top: 0;
+}
+.contener{
+    
+    flex-end: ;
+}
