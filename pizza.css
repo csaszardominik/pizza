@@ -12,10 +12,13 @@ body{
 }
 
 .contener{
-    align-items: flex-end;
-    gap: 100px;
+    /* align-items: flex-end; */
+    /* gap: 100px; */
     float: right;
-    margin-top: 0px;
+    /* margin-top: 0px; */
+    padding-top: 3%;
+    padding-right: 3%;
+    list-style: none;
     color: white;
     
 }
@@ -45,4 +48,19 @@ h2{
 .menugomb{
     text-align: center;
     border: 1px;
+    list-style: none;
+    border-width: 150px;
+}
+.spec{
+    background-color: rgb(43, 42, 42);
+}
+.kep{
+    width: 150px;
+    height: 150px;
+}
+.tablazat{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    padding-left: 25%;
+    padding-right: 25%;
 }
