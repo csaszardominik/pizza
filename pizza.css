@@ -31,7 +31,12 @@ body{
     margin-top: -50px;
     background-color: rgb(43, 42, 42);
 
+
 }
+.masodikszoveg{
+    padding-right: 18%;
+}
+
 h2{
     border-radius: 1px;
     border-color: black;
@@ -44,8 +49,15 @@ h2{
     color: white;
     margin-top: -2px;
     padding-top: 3px;
+    padding-left: 27%;
+    padding-right: 27%;
+    padding-bottom: 50px;
+    padding-top: 10px;
 }
 .menugombok{
+    /* list-style: none;
+    padding: 10px;
+    border-color: white; */
     text-align: center;
     list-style: none;
     border-width: 35px;
@@ -53,10 +65,22 @@ h2{
     display: inline-block;
     border: 1px solid white;
     width: 150px;
+    justify-content: center;
+    gap: 2px;
+
+}
+.gombul{
+    /* display: flex;
+    justify-content: space-around;
+    text-align: center; */
+    /* margin: 0 auto; */
+    /* padding: 0; */
 }
 
 .spec{
     background-color: rgb(43, 42, 42);
+    padding-top: 5px;
+    padding-bottom: 50px;
 }
 .kep{
     width: 150px;
