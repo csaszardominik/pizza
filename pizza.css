@@ -54,10 +54,10 @@ h2{
     padding-bottom: 50px;
     padding-top: 10px;
 }
-.menugombok{
+/* .menugombok{ */
     /* list-style: none;
     padding: 10px;
-    border-color: white; */
+    border-color: white;
     text-align: center;
     list-style: none;
     border-width: 35px;
@@ -66,16 +66,16 @@ h2{
     border: 1px solid white;
     width: 150px;
     justify-content: center;
-    gap: 2px;
-
-}
-.gombul{
+    gap: 2px; */
+/* 
+} */
+/* .gombul{ */
     /* display: flex;
     justify-content: space-around;
     text-align: center; */
     /* margin: 0 auto; */
     /* padding: 0; */
-}
+/* } */
 
 .spec{
     background-color: rgb(43, 42, 42);
@@ -92,4 +92,32 @@ h2{
     padding-left: 20%;
     padding-right: 20%;
     border: 0px 0px 1px 0px solid grey;
+}
+
+.btnmenu {
+    align-items: center;
+    background-color: black;
+    border: 1px solid white;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 140px;
+    padding: 0 17px;
+    text-align: center;
+    transition: all .4s;
+    user-select: none;
+    touch-action: manipulation;
+}
+
+.btnmenu:hover {
+    border-color: white;
+    color: black;
+    background-color: white;
+    fill: white;
 }
