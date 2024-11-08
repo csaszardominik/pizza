@@ -121,3 +121,14 @@ h2{
     background-color: white;
     fill: white;
 }
+.container{
+    display: flex;
+}
+.side {
+    display: flex;
+    flex-direction: column;
+}
+.image2{
+    align-self: flex-end;
+    flex-direction: row-reverse;
+}
