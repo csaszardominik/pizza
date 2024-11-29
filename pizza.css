@@ -68,11 +68,11 @@ body{
 .lablec{
     background-color: rgb(20, 20, 20);
     color: white;
-    padding-left: 20%;
-    padding-right: 20%;
-    border: 0px 0px 1px 0px solid grey;
+    padding-left: 10%;      /*20 volt
+    /* padding-right: 20%; */
+    /* border: 0px 0px 1px 0px solid grey; */
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 .btnmenu:hover {
     border-color: white;
@@ -168,7 +168,7 @@ body{
 
 }
 .masodikoszlop{
-    /* padding-right: 33%; */
+    margin-right: 33%;
     
 }
 .vegsoszoveg{
@@ -177,3 +177,9 @@ body{
     padding-bottom: 10%;
 }
 
+
+@media  screen and (max-width: 900px) {
+    .sztori{
+        
+    }
+}
