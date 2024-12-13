@@ -153,8 +153,7 @@ body{
     cursor: pointer;
     display: inline-block;
     text-decoration: none ;
-    color: white;
- 
+    color: white; 
 }
  
 .buttons button:hover {
@@ -210,9 +209,21 @@ body{
     text-decoration: underline;
 }
 
-
+/* medium */
+/* @media  screen and (max-width: 750px) {
+    .buttons{
+        float: left;
+        float: right;
+    }
+} */
+@media  screen and (max-width: 600px) {
+    .masodikszoveg{
+        padding: none;
+        margin: none;
+    }
+}
 @media  screen and (max-width: 900px) {
-    .sztori{
-        
+    .menugombok{
+        display: none;
     }
 }
