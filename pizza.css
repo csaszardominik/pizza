@@ -64,7 +64,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    max-width: 1200px;
+    max-width: 1200px;     
     margin: 0 auto;
     background-color: rgb(20, 20, 20);
     color: white;
@@ -76,6 +76,18 @@ body{
     background-color: white;
     fill: white;
 }
+.btnmenu {
+    display: grid;
+    transition: all 0.2s;
+
+}
+@media screen and (max-width: 600px){
+.button1{
+    display:block;
+    margin:0.4em auto;
+    }
+
+}    
 .container{
     display: flex;
 }
@@ -92,23 +104,56 @@ body{
     color: white;
     padding: 5px;
     font-size: 1rem;
-
+    
 }
 
-.buttons button {
+a.button1{
+    display:inline-block;
     padding: 15px 75px;
-    background-color: transparent;
-    border: 1px solid #fff;
-    color: #fff;
-    cursor: pointer;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
     display: inline-block;
-    text-decoration: none ;
-    color: white; 
+    }
+    a.button1:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+    }
+
+    @media all and (max-width:30em){
+    a.button1{
+    display:block;
+    margin:0.4em auto;
+    }
 }
- 
-.buttons button:hover {
-    background-color: #fff;
-    color: #000;
+@media  screen and (min-width: 800px) {
+    .buttons button {
+        padding: 15px 75px;
+        background-color: transparent;
+        border: 1px solid #fff;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        text-decoration: none ;
+        color: white; 
+    }
+     
+    .buttons button:hover {
+        background-color: #fff;
+        color: #000;
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
 }
 .sztori{
     display: flex;
@@ -116,11 +161,6 @@ body{
     align-items: flex-start;
     padding-left: 17%;
     padding-right: 17%;
-}
-.buttons{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
 }
 .elsooszlop h2{    
     border: none;
