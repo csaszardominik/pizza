@@ -32,7 +32,7 @@ body{
     .piadina{
         color: white;
         margin-top: 50px;
-        margin-left: 5em;       /*16% volt*/
+        margin-left: 5em;       
         margin-right: 54%;
 
     }
@@ -47,7 +47,7 @@ body{
     }
     .masodikszoveg{
         padding-right: 18%;
-        margin-left: 30em;        /*42% volt*/
+        margin-left: 30em;        
         margin-top: -88px;
         color: gray;
         display: flex;
@@ -58,7 +58,7 @@ body{
     }
     .tortenet{
         color: gray;
-        margin-left: 24em;         /*34% volt*/
+        margin-left: 24em;        
     }
 }
 @media screen and (max-width: 600px) {
@@ -102,13 +102,14 @@ body{
 }
 .lablec{
     display: flex;
-    justify-content: space-between;
-    padding: 20px;
     max-width: 1200px;     
     margin: 0 auto;
     background-color: rgb(20, 20, 20);
     color: white;
-    padding-left: 20%;
+    padding-left: 18%;          
+    padding-right: 18%;
+    padding-top: 5%;
+    padding-bottom: 230px;
 }
 .btnmenu:hover {
     border-color: white;
@@ -149,7 +150,7 @@ body{
 
 a.button1{
     display:inline-block;
-    padding: 2% 8%;              /*padding: 15px 75px;*/
+    padding: 2% 8%;            
     border:0.1em solid #FFFFFF;
     margin:0 0.3em 0.3em 0;
     border-radius:0.12em;
@@ -173,7 +174,6 @@ a.button1{
     margin:0.4em auto;
     }
 }
-/* @media  screen and (min-width: 800px) { */
     .buttons button {
         padding: 15px 75px;
         background-color: transparent;
@@ -194,15 +194,14 @@ a.button1{
         justify-content: center;
         gap: 50px;
     }
-/* } */
+
 @media screen and (max-width:600px) {
     .buttons{
         display: flex;
         justify-content: center;
         gap: 50px;
         flex-direction: column;
-        /* margin-left: 5%;
-        margin-right: 5%; */
+
 
     }
     .buttons button {
@@ -213,11 +212,6 @@ a.button1{
     }
 }
 .sztori{
-    /* display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding-left: 17%;
-    padding-right: 17%; */
     text-align: center;
     font-size: 1.2em;
     height: 100%;
@@ -232,17 +226,22 @@ a.button1{
         width: 100%;
     }
 }
-
-.elsooszlop h2{    
-    border: none;
-    margin-left: 10%;
-
+.elsooszlop {
+    padding-right: 5%;
+    text-align: center;
+    width: 40%;
 }
 .masodikoszlop{
-    margin-left: -9%;
+
+    width: 50%;
+    align-items: flex-start;
 }
 .masodikoszlop h3, .harmadikoszlop h3{      
     margin: 0 0 10px;
+    color: white;
+}
+.masodikoszlop td{
+    color: white;
 }
 .masodikoszlop p{
     margin: 5px 0;
@@ -251,6 +250,14 @@ a.button1{
     border: 0;
     border-top: 1px solid #444;
     margin: 10px 0;
+}
+.harmadikoszlop{
+    width: 40%;
+    padding-left: 5%;
+
+}
+.harmadikoszlop h3{
+    color: white;
 }
 .harmadikoszlop p{
     margin-bottom: 20px;
@@ -264,6 +271,33 @@ a.button1{
     text-decoration: underline;
 
 }
+table{
+    width: 100%;
+    border-spacing: 10px 15px;
+}
+.harmadikoszlop p{
+    margin-bottom: 10px;
+}
+hr{
+    color: rgb(182, 182, 182);
+    width: 65%;
+    background-color: rgb(18, 18, 18);
+    margin: auto;
+    margin-bottom: 2%;
+}
+td{
+    border-bottom: 1px solid rgb(182, 182, 182);
+    color: rgb(182, 182, 182);
+    padding-bottom: 1%;
+}
+footer{
+    background-color: rgb(18, 18, 18);
+    color: rgb(182, 182, 182);
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 3%;
+}
+
 .vegsoszoveg{
     text-align: center;
     color: white;
@@ -347,17 +381,6 @@ nav {
       display: flex;
     }
 }
- 
- 
-
-
-/* medium */
-/* @media  screen and (max-width: 750px) {
-    .buttons{
-        float: left;
-        float: right;
-    }
-} */
 @media  screen and (max-width: 600px) {
     .masodikszoveg{
         padding: none;
