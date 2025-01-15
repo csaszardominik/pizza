@@ -111,17 +111,6 @@ body{
     padding-top: 5%;
     padding-bottom: 230px;
 }
-.btnmenu:hover {
-    border-color: white;
-    color: black;
-    background-color: white;
-    fill: white;
-}
-.btnmenu {
-    display: grid;
-    transition: all 0.2s;
-
-}
 @media screen and (max-width: 600px){
 .button1{
     display:block;
@@ -171,7 +160,7 @@ a.button1{
     @media all and (max-width:30em){
     a.button1{
     display:block;
-    margin:0.4em auto;
+    /* margin: 0.4em auto; */
     }
 }
     .buttons button {
@@ -201,6 +190,8 @@ a.button1{
         justify-content: center;
         gap: 50px;
         flex-direction: column;
+        margin-left: 20%;
+        margin-right: 20%;
 
 
     }
@@ -209,6 +200,9 @@ a.button1{
         border: 1px solid #fff;
         display: inline-block;
 
+    }
+    a.button1{
+        padding: 5% 8%; 
     }
 }
 .sztori{
